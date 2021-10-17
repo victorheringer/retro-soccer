@@ -1,8 +1,3 @@
-main.gb
-main.ihx
-main.lst
-main.map
-main.noi
-main.o
-main.sym
+obj
 main.asm
+gbdk-linux64
