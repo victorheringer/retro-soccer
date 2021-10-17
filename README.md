@@ -11,5 +11,5 @@ Running the `make.sh` file with all requirements to run gbdk should do
 the job, it creates the ROM file (main.gb) that can be tested using any emulator (I like [SameBoy](https://sameboy.github.io/) it has versions for both Windows, Mac and Linux with cool features for debugging).
 
 ```
-./make.sh
+make
 ```
