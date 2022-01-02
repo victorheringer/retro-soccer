@@ -22,4 +22,5 @@ make
 
 # Prints
 
-![Example](.github/media/cat.gif)
+| ![Cat](.github/media/cat.gif) | ![Backyard](.github/media/backyard.png) |
+| ----------------------------- | --------------------------------------- |
