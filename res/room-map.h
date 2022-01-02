@@ -7,7 +7,7 @@
  Info:
    Section       : 
    Bank          : 0
-   Map size      : 32 x 32
+   Map size      : 27 x 23
    Tile set      : D:\retro-soccer\tiles\map-tiles.gbr
    Plane count   : 1 plane (8 bits)
    Plane order   : Tiles are continues
@@ -20,8 +20,8 @@
 #ifndef __room_map_h_INCLUDE
 #define __room_map_h_INCLUDE
 
-#define RoomWidth 32
-#define RoomHeight 32
+#define RoomWidth 27
+#define RoomHeight 23
 #define RoomBank 0
 
 extern const unsigned char Room[];

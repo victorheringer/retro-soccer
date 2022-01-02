@@ -14,15 +14,15 @@ LCC = $(GBDK_HOME)bin/lcc
 # LCCFLAGS = -debug
 
 # You can set the name of the .gb ROM file here
-PROJECTNAME    = RetroSoccer
+PROJECTNAME = RetroSoccer
 
 SRCDIR      = src
 OBJDIR      = obj
 RESDIR      = res
-BINS	    = $(OBJDIR)/$(PROJECTNAME).gb
+BINS	      = $(OBJDIR)/$(PROJECTNAME).gb
 CSOURCES    = $(foreach dir,$(SRCDIR),$(notdir $(wildcard $(dir)/*.c))) $(foreach dir,$(RESDIR),$(notdir $(wildcard $(dir)/*.c)))
 ASMSOURCES  = $(foreach dir,$(SRCDIR),$(notdir $(wildcard $(dir)/*.s)))
-OBJS       = $(CSOURCES:%.c=$(OBJDIR)/%.o) $(ASMSOURCES:%.s=$(OBJDIR)/%.o)
+OBJS        = $(CSOURCES:%.c=$(OBJDIR)/%.o) $(ASMSOURCES:%.s=$(OBJDIR)/%.o)
 
 all:	prepare $(BINS)
 
